@@ -26,7 +26,7 @@ function writeToFile(fileName, answers) {
   svgString += "</svg>";
 
   fs.writeFile(fileName, svgString, (err) => {
-    err ? console.log(err) : console.log("Generated logo.svg");
+    err ? console.log(err) : console.log(" YAY! Generated logo.svg !");
   });
 }
 
